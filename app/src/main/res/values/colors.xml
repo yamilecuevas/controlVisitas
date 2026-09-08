@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#4CAF50</color> <!-- Verde principal -->
+        <color name="colorPrimaryDark">#2E7D32</color> <!-- Verde oscuro -->
+        <color name="colorAccent">#81C784</color> <!-- Verde claro -->
+        <color name="colorTextPrimary">#333333</color>
+        <color name="colorTextSecondary">#555555</color>
+        <color name="colorBackground">#F5F5F5</color>
+
+
+</resources>
