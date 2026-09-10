@@ -1,21 +1,20 @@
 package com.rhsoft.controlvisitas;
 
 public class visita {
-        String nombre, empresa, proposito, dni;
+    private String nombre;
+    private String empresa;
+    private String proposito;
+    private String dni;
 
-        // Constructor
-        public visita(String nombre, String empresa, String proposito, String dni) {
-            this.nombre = nombre;
-            this.empresa = empresa;
-            this.proposito = proposito;
-            this.dni = dni;
-        }
+    public visita(String nombre, String empresa, String proposito, String dni) {
+        this.nombre = nombre;
+        this.empresa = empresa;
+        this.proposito = proposito;
+        this.dni = dni;
+    }
 
-        // Getters
-        public String getNombre() { return nombre; }
-        public String getEmpresa() { return empresa; }
-        public String getProposito() { return proposito; }
-        public String getDni() { return dni; }
-
-
+    public String getNombre() { return nombre; }
+    public String getEmpresa() { return empresa; }
+    public String getProposito() { return proposito; }
+    public String getDni() { return dni; }
 }
